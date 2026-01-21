@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-image {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* HOME PAGE */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image {
+    display: block;
+}
+
+.introduction-bio h1 {
+    font-family: "Pinyon Script", "Brush Script MT", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+.introduction-bio #job-title {
+    font-family: "Lexend", "Arial", sans-serif;
+    font-weight: 250;
+    font-style: normal
+}
+
+.introduction-bio #bio {
+    font-family: "Lexend", "Arial", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* SCREEN SIZE SPECIFIC CSS SPECIFICATIONS */
+@media screen and (max-width: 640px) {
+    /* small screens */
+
+    .profile-image {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .introduction-bio {
+        margin-top: 15px;
+        margin-bottom: 0;
+        h1 {
+            font-size: 10vw;
+        }
+        #job-title {
+            font-size: 4vw;
+            margin-bottom: 8px;
+        }
+        #bio {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 3vw;
+        }
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    /* medium screens */
+
+    .profile-image {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .introduction-bio {
+        margin-top: 25px;
+        margin-bottom: 0;
+        h1 {
+            font-size: 8vw;
+        }
+        #job-title {
+            font-size: 3vw;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* large screens */
+
+    .profile-image {
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+
+    .introduction-bio {
+        margin-top: 75px;
+        margin-bottom: 0;
+        h1 {
+            font-size: 6vw;
+        }
+        #job-title {
+            font-size: 2vw;
+        }
+    }
+}
