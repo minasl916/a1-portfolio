@@ -2,6 +2,25 @@ body {
     margin: 0;
 }
 
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-image {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    display: block;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
 /* HOME PAGE */
 body {
   min-height: 100vh;
@@ -34,26 +53,67 @@ body {
     padding-top: 20px;
 }
 
-.footer {
-    margin: 0;
-    padding: 0;
+/* ABOUT ME PAGE */
+.aboutme-heading {
+    font-family: "Pinyon Script", "Brush Script MT", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vw;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.aboutme-image {
+    margin-bottom: 20px;
+}
+
+#aboutme-bio {
+    font-family: "Lexend", "Arial", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.interests-heading {
+    font-family: "Pinyon Script", "Brush Script MT", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.interests-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 25px;
+}
+
+.interests-text {
+    font-family: "Lexend", "Arial", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.connect-heading {
+    font-family: "Pinyon Script", "Brush Script MT", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.socials-container {
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* RESUME PAGE */
-header {
-    width: 100%;
-    overflow: hidden;
-}
-
-.header-image {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 20vw;
-    object-fit: cover;
-    display: block;
-}
-
 .resume-heading {
     font-family: "Pinyon Script", "Brush Script MT", cursive;
     font-weight: 400;
@@ -92,7 +152,7 @@ header {
     }
 
     .introduction-bio h1 {
-        font-size: 10vw;
+        font-size: 12vw;
     }
 
     .introduction-bio #job-title {
@@ -104,6 +164,26 @@ header {
         padding-top: 5px;
         padding-bottom: 5px;
         font-size: 3vw;
+    }
+
+    .aboutme-text #aboutme-bio {
+        font-size: 3vw;
+    }
+
+    .interests-container {
+        margin-bottom: 0;
+    }
+
+    .interests-heading {
+        font-size: 7vw;
+    }
+
+    .interests-text {
+        font-size: 4vw;
+    }
+
+    .connect-heading {
+        font-size: 7vw;
     }
 }
 
@@ -124,8 +204,20 @@ header {
         font-size: 8vw;
     }
 
-    .introduction-bio h1 {
+    .introduction-bio #job-title {
         font-size: 3vw;
+    }
+
+    .interests-heading {
+        font-size: 6vw;
+    }
+
+    .interests-text {
+        font-size: 2vw;
+    }
+
+    .connect-heading {
+        font-size: 6vw;
     }
 }
 
@@ -148,5 +240,19 @@ header {
 
     .introduction-bio #job-title {
         font-size: 2vw;
+    }
+
+    .interests-heading {
+        margin-top: 5px;
+        font-size: 5vw;
+    }
+
+    .interests-text {
+        font-size: 1.5vw;
+    }
+
+    .connect-heading {
+        margin-top: 5px;
+        font-size: 5vw;
     }
 }
