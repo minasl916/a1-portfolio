@@ -40,6 +40,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
         No specific warnings or errors presented by accessibility checks through AChecker were ignored.
+        Potential Problems regarding alternative text descriptions were ignored.
 
 4. How long, in hours, did it take you to complete this assignment?
         I took approximately 10 hours to complete this project.
