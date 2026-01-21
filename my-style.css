@@ -21,6 +21,49 @@ header {
     padding: 0;
 }
 
+/* NAVIGATION BAR */
+.navbar {
+    padding: 0px;
+    background-color: #3d2218;
+}
+
+.navbar-brand {
+    padding-left: 2vw;
+    font-family: "Pinyon Script", "Brush Script MT", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #fbdde3 !important;
+}
+
+.navbar-brand:active,
+.navbar-brand:visited {
+  color: #fbdde3 !important;  
+}
+
+.navbar-brand:hover {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-link {
+    color: #fbdde3;
+    font-family: "Lexend", "Arial", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.nav-item {
+    font-size: 1.5vw;
+}
+
 /* HOME PAGE */
 body {
   min-height: 100vh;
@@ -140,6 +183,13 @@ body {
 /* SCREEN SIZE SPECIFIC CSS SPECIFICATIONS */
 @media screen and (max-width: 640px) {
     /* small screens */
+    .navbar-brand {
+        font-size: 4vw;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 2.5vw;
+    }
 
     .profile-image {
         margin-top: 30px;
@@ -189,6 +239,13 @@ body {
 
 @media screen and (min-width: 640px) and (max-width: 1024px) {
     /* medium screens */
+    .navbar-brand {
+        font-size: 3vw;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.3vw;
+    }
 
     .profile-image {
         margin-top: 50px;
@@ -223,6 +280,13 @@ body {
 
 @media screen and (min-width: 1024px) {
     /* large screens */
+    .navbar-brand {
+        font-size: 3vw;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.3vw;
+    }
 
     .profile-image {
         margin-top: 75px;
